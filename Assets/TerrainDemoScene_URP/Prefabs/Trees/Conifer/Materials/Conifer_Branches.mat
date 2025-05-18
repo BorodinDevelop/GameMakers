@@ -56,6 +56,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: edcd0e8c7fd488c4389ffd92c72e9c8a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 80ec7e07223ddfa46b063d556e2d1d35, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -123,10 +127,12 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
+    - _Shininess: 0.078125
     - _SphereAOCenter: 1
     - _SphereAODarken: 1
     - _SphereAORadius: 4
     - _SphereAOStretch: 1
+    - _SquashAmount: 1
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 0
@@ -169,7 +175,10 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _HueVariationColor: {r: 0.5943396, g: 0.50214976, b: 0.31623352, a: 0.50980395}
     - _Smoothness_Remap: {r: 0.1, g: 0.3, b: 0, a: 0}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _SubsurfaceColor: {r: 0.6509434, g: 0.6281874, b: 0.41390175, a: 1}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &930933199504934671
