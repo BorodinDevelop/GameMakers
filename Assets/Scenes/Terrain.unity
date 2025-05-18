@@ -139,7 +139,7 @@ MonoBehaviour:
   noiseType: 0
   noiseScale: 90.93
   noiseOffset: {x: 10, y: 14}
-  levels: {x: 0.21351352, y: 0.8621614}
+  levels: {x: 0.2822158, y: 0.8621614}
 --- !u!114 &154088749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -310,7 +310,7 @@ MonoBehaviour:
   splatmapResolution: 256
   colorMapResolution: 256
   layerSettings:
-  - enabled: 1
+  - enabled: 0
     layer: {fileID: 8574412962073106934, guid: d48062b96a99af24daf9312749f5de50, type: 2}
     modifierStack:
     - {fileID: 154088749}
