@@ -17,7 +17,7 @@ public class ChunksPlacer : MonoBehaviour
 
     private void Update()
     {
-        if (Player.position.z > spawnedChunks[spawnedChunks.Count - 1].End.position.z - 125 || Player.position.x > spawnedChunks[spawnedChunks.Count - 1].End.position.x - 125)
+        if (Player.position.z > spawnedChunks[spawnedChunks.Count - 1].End.position.z - 125)
         {
             SpawnChunk();
         }
