@@ -27,7 +27,7 @@ RenderSettings:
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.06666667, g: 0.06666667, b: 0.08627451, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 51b74d7bad397457d883c5940f7664d8, type: 2}
-  m_HaloStrength: 0.5
+  m_HaloStrength: 0.3
   m_FlareStrength: 1
   m_FlareFadeSpeed: 1
   m_HaloTexture: {fileID: 2800000, guid: e54f4efe227d4144e835df20b850284d, type: 3}
@@ -4505,10 +4505,10 @@ Terrain:
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: 3ec1e6350b6999d49a512085d6dacd69, type: 2}
   m_TreeDistance: 10
-  m_TreeBillboardDistance: 10
+  m_TreeBillboardDistance: 6
   m_TreeCrossFadeLength: 10
-  m_TreeMaximumFullLODCount: 30
-  m_DetailObjectDistance: 25
+  m_TreeMaximumFullLODCount: 10
+  m_DetailObjectDistance: 18
   m_DetailObjectDensity: 0.8
   m_HeightmapPixelError: 64
   m_SplatMapDistance: 1000
