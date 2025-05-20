@@ -23,19 +23,20 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151832639229187238}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.02, y: 0.155, z: -0.012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6179546325909704974}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &6179546325909834638
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 100000, guid: 0347a2ca593e212468d38a00c0f15925, type: 3}
@@ -119,7 +120,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 0347a2ca593e212468d38a00c0f15925, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 5d53f2d3d2871cc40bfce7f567098cbe, type: 2}
     - target: {fileID: 2300002, guid: 0347a2ca593e212468d38a00c0f15925, type: 3}
@@ -183,9 +184,92 @@ PrefabInstance:
       value: 0.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: 0347a2ca593e212468d38a00c0f15925, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8877216319164120280}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 0347a2ca593e212468d38a00c0f15925, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8703107432647721900}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 0347a2ca593e212468d38a00c0f15925, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6678774688982498856}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 0347a2ca593e212468d38a00c0f15925, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7068808266455357094}
   m_SourcePrefab: {fileID: 100100000, guid: 0347a2ca593e212468d38a00c0f15925, type: 3}
 --- !u!4 &6179546325909704974 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 0347a2ca593e212468d38a00c0f15925, type: 3}
   m_PrefabInstance: {fileID: 6179546325909834638}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6179546325909802286 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 0347a2ca593e212468d38a00c0f15925, type: 3}
+  m_PrefabInstance: {fileID: 6179546325909834638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8703107432647721900
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6179546325909802286}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5613023, y: 0.20455334, z: 0.30198354}
+  m_Center: {x: 0.011372229, y: 0.13148537, z: 0.012311797}
+--- !u!65 &6678774688982498856
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6179546325909802286}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.25191626, y: 0.26968646, z: 0.12902658}
+  m_Center: {x: 0.1960704, y: 0.16762742, z: -0.19433746}
+--- !u!65 &7068808266455357094
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6179546325909802286}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.6257427, y: 0.12506041, z: 0.36419338}
+  m_Center: {x: -0.12575728, y: 0.07910441, z: 0.060527317}
