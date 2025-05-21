@@ -1,6 +1,11 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem.EnhancedTouch;
+using static UnityEngine.Rendering.DebugUI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -14,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpHeight = 3f;
     public float groundDistance = 0.4f;
     public Animator anim;
+    public GameObject Torch;
     //public GameObject cam;
     //public GameObject maincam;
     Vector3 velocity;
@@ -71,6 +77,17 @@ public class PlayerMovement : MonoBehaviour
             speed = 5f;
          //   cam.SetActive(false);
           //  maincam.SetActive(true);
+        }
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            anim.SetTrigger("TorchChange");            
+            anim.SetBool("Torch", !anim.GetBool("Torch"));
+            if (anim.GetBool("Torch"))
+            { Torch.SetActive(true); }
+            else 
+            { Torch.SetActive(false); }
+            
+            Debug.Log(anim.GetBool("Torch"));
         }
     }
 }
