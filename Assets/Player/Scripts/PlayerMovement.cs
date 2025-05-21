@@ -20,7 +20,8 @@ public class PlayerMovement : MonoBehaviour
     public float groundDistance = 0.4f;
     public Animator anim;
     public GameObject Torch;
-    //public GameObject cam;
+    public GameObject cam;
+    
     //public GameObject maincam;
     Vector3 velocity;
 
@@ -69,14 +70,14 @@ public class PlayerMovement : MonoBehaviour
         {
             speed = 10f;
             anim.SetFloat("Y", 2);
-         //   cam.SetActive(true);
-         //   maincam.SetActive(false);
+            cam.transform.localPosition = new Vector3(0.07086182f, 0.506f, 0f);
+            //   maincam.SetActive(false);
         }
         else
         {
             speed = 5f;
-         //   cam.SetActive(false);
-          //  maincam.SetActive(true);
+            cam.transform.localPosition = new Vector3(0.07086182f, 0.506f, -0.15f);
+            //  maincam.SetActive(true);
         }
         if (Input.GetKeyDown(KeyCode.F))
         {

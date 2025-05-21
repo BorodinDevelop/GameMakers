@@ -721,6 +721,7 @@ MonoBehaviour:
   groundDistance: 0.4
   anim: {fileID: 2404893506240489202}
   Torch: {fileID: 8203340150044929673}
+  cam: {fileID: 4903084326429488347}
 --- !u!114 &8281809810572796510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1444,7 +1445,7 @@ Transform:
   m_GameObject: {fileID: 4903084326429488347}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.07086182, y: 0.506, z: -0.246}
+  m_LocalPosition: {x: 0.07086182, y: 0.506, z: -0.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
