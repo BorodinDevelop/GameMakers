@@ -240,7 +240,6 @@ MonoBehaviour:
   ChunkPrefabs:
   - {fileID: 7309315739235278568, guid: 181c5a9c251f47b429c37b8f51282b23, type: 3}
   - {fileID: 1200554126}
-  - {fileID: 8773439312785064138, guid: 374fffbda87af2e478c0bbfdcff1e619, type: 3}
   FirstChunk: {fileID: 1200554126}
 --- !u!4 &1170692402
 Transform:
@@ -654,6 +653,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 2927660430550254435, guid: 26d44ce33ec128d4293ab5bb3abc2daf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2964750281850894218, guid: 26d44ce33ec128d4293ab5bb3abc2daf, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -873,6 +876,10 @@ PrefabInstance:
     - target: {fileID: 4857711857843039289, guid: 26d44ce33ec128d4293ab5bb3abc2daf, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904973109275084710, guid: 26d44ce33ec128d4293ab5bb3abc2daf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4920211399027170411, guid: 26d44ce33ec128d4293ab5bb3abc2daf, type: 3}
       propertyPath: m_Layer

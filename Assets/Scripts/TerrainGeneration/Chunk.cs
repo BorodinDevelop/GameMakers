@@ -2,6 +2,7 @@
 
 public class Chunk : MonoBehaviour
 {
+    public GameObject ContainerB_E;
     public Transform Begin1;
     public Transform End1;
     public Transform Begin2;
