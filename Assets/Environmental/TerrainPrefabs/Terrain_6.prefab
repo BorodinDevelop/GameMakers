@@ -469,9 +469,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1004f73054a24c543afb5079ee7db628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Begin: {fileID: 5306212522855129300}
-  End: {fileID: 5572065083249574583}
-  BlockMeshes: []
+  Begin1: {fileID: 6163116647694661837}
+  End1: {fileID: 4937757291147423773}
+  Begin2: {fileID: 7600934976740629349}
+  End2: {fileID: 8582977491319240043}
+  Begin3: {fileID: 8698030976466718166}
+  End3: {fileID: 1801598474041591010}
+  Begin4: {fileID: 7155547757219313476}
+  End4: {fileID: 2264895741714371638}
   ChanceFromDistance:
     serializedVersion: 2
     m_Curve:
