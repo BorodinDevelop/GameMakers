@@ -169,19 +169,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 20500000, guid: 9ec4ab395efae3f44b859f77742dd451, type: 3}
       propertyPath: m_LODs.Array.data[0].screenRelativeHeight
-      value: 0.8513656
+      value: 0.96
       objectReference: {fileID: 0}
     - target: {fileID: 20500000, guid: 9ec4ab395efae3f44b859f77742dd451, type: 3}
       propertyPath: m_LODs.Array.data[1].screenRelativeHeight
-      value: 0.5946509
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 20500000, guid: 9ec4ab395efae3f44b859f77742dd451, type: 3}
       propertyPath: m_LODs.Array.data[2].screenRelativeHeight
-      value: 0.2594811
+      value: 0.54
       objectReference: {fileID: 0}
     - target: {fileID: 20500000, guid: 9ec4ab395efae3f44b859f77742dd451, type: 3}
       propertyPath: m_LODs.Array.data[3].screenRelativeHeight
-      value: 0.08949862
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 20500000, guid: 9ec4ab395efae3f44b859f77742dd451, type: 3}
       propertyPath: m_LODs.Array.data[4].screenRelativeHeight
