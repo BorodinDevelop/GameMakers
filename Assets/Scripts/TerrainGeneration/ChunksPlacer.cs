@@ -17,17 +17,33 @@ public class ChunksPlacer : MonoBehaviour
 
     private void Update()
     {
-        if (Player.position.z > spawnedChunks[spawnedChunks.Count - 1].End.position.z - 125)
+        if (Player.position.z > spawnedChunks[spawnedChunks.Count - 1].End1.position.z - 125)
         {
-            SpawnChunk();
+            SpawnChunk(spawnedChunks[spawnedChunks.Count - 1].End1);
         }
+        /*if (Player.position.z < spawnedChunks[spawnedChunks.Count - 1].End2.position.z + 50)
+        {
+            SpawnChunk(spawnedChunks[spawnedChunks.Count - 1].End2);
+        }
+        if (Player.position.x > spawnedChunks[spawnedChunks.Count - 1].End3.position.x - 50)
+        {
+            SpawnChunk(spawnedChunks[spawnedChunks.Count - 1].End3);
+        }
+        if (Player.position.x < spawnedChunks[spawnedChunks.Count - 1].End4.position.x + 50)
+        {
+            SpawnChunk(spawnedChunks[spawnedChunks.Count - 1].End4);
+        }*/
     }
 
-    private void SpawnChunk()
+    private void SpawnChunk(Transform End)
     {
         Chunk newChunk = Instantiate(GetRandomChunk());
-        newChunk.transform.position = spawnedChunks[spawnedChunks.Count - 1].End.position - newChunk.Begin.localPosition;
+        
+        newChunk.transform.position = End.position - newChunk.Begin1.localPosition;
         spawnedChunks.Add(newChunk);
+        
+
+
 
         if (spawnedChunks.Count >= 50)
         {
