@@ -239,8 +239,11 @@ MonoBehaviour:
   Player: {fileID: 1438962065}
   ChunkPrefabs:
   - {fileID: 7309315739235278568, guid: 181c5a9c251f47b429c37b8f51282b23, type: 3}
-  - {fileID: 1200554126}
-  FirstChunk: {fileID: 1200554126}
+  - {fileID: 2658724697817343014, guid: eb2e658743ff27b4bbb3ea672c2c5011, type: 3}
+  - {fileID: 708216946967945488, guid: 26d44ce33ec128d4293ab5bb3abc2daf, type: 3}
+  - {fileID: 8773439312785064138, guid: 374fffbda87af2e478c0bbfdcff1e619, type: 3}
+  - {fileID: 104244903165995916, guid: 432ee9af6eb4bef48ad26a4ffe92dd6a, type: 3}
+  FirstChunk: {fileID: 7309315739235278568, guid: 181c5a9c251f47b429c37b8f51282b23, type: 3}
 --- !u!4 &1170692402
 Transform:
   m_ObjectHideFlags: 0
@@ -256,17 +259,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1200554126 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 708216946967945488, guid: 26d44ce33ec128d4293ab5bb3abc2daf, type: 3}
-  m_PrefabInstance: {fileID: 4477866991466245447}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1004f73054a24c543afb5079ee7db628, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1438962065 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1467323948193985841, guid: 04853c7b06902184aa2c31801a1c3c6f, type: 3}
