@@ -127,6 +127,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2525964987640046138, guid: 432ee9af6eb4bef48ad26a4ffe92dd6a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5726304420985513998, guid: 432ee9af6eb4bef48ad26a4ffe92dd6a, type: 3}
       propertyPath: m_Name
       value: Terrain_5
@@ -309,6 +313,7 @@ MonoBehaviour:
   - {fileID: 104244903165995916, guid: 432ee9af6eb4bef48ad26a4ffe92dd6a, type: 3}
   - {fileID: 2658724697817343014, guid: 181c5a9c251f47b429c37b8f51282b23, type: 3}
   FirstChunk: {fileID: 324330427}
+  LastEndPoint: 0
 --- !u!4 &1170692402
 Transform:
   m_ObjectHideFlags: 0
