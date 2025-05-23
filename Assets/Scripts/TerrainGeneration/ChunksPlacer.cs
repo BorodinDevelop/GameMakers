@@ -9,6 +9,7 @@ public class ChunksPlacer : MonoBehaviour
     public Chunk FirstChunk;
 
     private List<Chunk> spawnedChunks = new List<Chunk>();
+    public int LastEndPoint = 0;
 
     private void Start()
     {
@@ -17,36 +18,70 @@ public class ChunksPlacer : MonoBehaviour
 
     private void Update()
     {
-        if (Player.position.z > spawnedChunks[spawnedChunks.Count - 1].End1.position.z - 50)
+        if (Player.position.z > spawnedChunks[spawnedChunks.Count - 1].End1.position.z - 50 && LastEndPoint != 2)
         {
-            SpawnChunk(spawnedChunks[spawnedChunks.Count - 1].End1);
+            LastEndPoint = 1;
+            SpawnChunk(spawnedChunks[spawnedChunks.Count - 1].End1, 1);
             Debug.Log("Проверка на срабатывание End1");
         }
-        if (Player.position.z < spawnedChunks[spawnedChunks.Count - 1].End2.position.z + 50)
+        if (Player.position.z < spawnedChunks[spawnedChunks.Count - 1].End2.position.z + 50 && LastEndPoint != 1)
         {
-            SpawnChunk(spawnedChunks[spawnedChunks.Count - 1].End2);
+            LastEndPoint = 2;
+            SpawnChunk(spawnedChunks[spawnedChunks.Count - 1].End2, 2);
             Debug.Log("Проверка на срабатывание End2");
         }
-        if (Player.position.x > spawnedChunks[spawnedChunks.Count - 1].End3.position.x - 50)
+        if (Player.position.x > spawnedChunks[spawnedChunks.Count - 1].End3.position.x - 50 && LastEndPoint != 4)
         {
-            SpawnChunk(spawnedChunks[spawnedChunks.Count - 1].End3);
+            LastEndPoint = 3;
+            SpawnChunk(spawnedChunks[spawnedChunks.Count - 1].End3, 3);
             Debug.Log("Проверка на срабатывание End3");
         }
-        if (Player.position.x < spawnedChunks[spawnedChunks.Count - 1].End4.position.x + 50)
+        if (Player.position.x < spawnedChunks[spawnedChunks.Count - 1].End4.position.x + 50 && LastEndPoint != 3)
         {
-            SpawnChunk(spawnedChunks[spawnedChunks.Count - 1].End4);
+            LastEndPoint = 4;
+            SpawnChunk(spawnedChunks[spawnedChunks.Count - 1].End4, 4);
             Debug.Log("Проверка на срабатывание End4");
         }
     }
 
-    private void SpawnChunk(Transform End)
+    private void SpawnChunk(Transform End, int EndNumber)
     {
+        if (EndNumber == 1)
+        {
+            Chunk newChunk = Instantiate(GetRandomChunk());
+            newChunk.End2.gameObject.SetActive(false);
+            newChunk.ContainerB_E.SetActive(true);
+            newChunk.transform.position = End.position - newChunk.Begin1.localPosition;
+            spawnedChunks.Add(newChunk);
+            Debug.Log("Спавн чанка из-за триггера  " + End);
+        }
+        if (EndNumber == 2) {
         Chunk newChunk = Instantiate(GetRandomChunk());
         newChunk.End1.gameObject.SetActive(false);
         newChunk.ContainerB_E.SetActive(true);
         newChunk.transform.position = End.position - newChunk.Begin2.localPosition;        
         spawnedChunks.Add(newChunk);
-        Debug.Log("Спавн чанка из-за триггера  " + End);
+        Debug.Log("Спавн чанка из-за триггера  " + End); 
+        }
+        if (EndNumber == 3)
+        {
+            Chunk newChunk = Instantiate(GetRandomChunk());
+            newChunk.End4.gameObject.SetActive(false);
+            newChunk.ContainerB_E.SetActive(true);
+            newChunk.transform.position = End.position - newChunk.Begin3.localPosition;
+            spawnedChunks.Add(newChunk);
+            Debug.Log("Спавн чанка из-за триггера  " + End);
+        }
+        if (EndNumber == 4)
+        {
+            Chunk newChunk = Instantiate(GetRandomChunk());
+            newChunk.End3.gameObject.SetActive(false); //Destroy(newChunk.End3.gameObject);
+            newChunk.ContainerB_E.SetActive(true);
+            newChunk.transform.position = End.position - newChunk.Begin4.localPosition;
+            spawnedChunks.Add(newChunk);
+            Debug.Log("Спавн чанка из-за триггера  " + End);
+        }
+
 
 
 
