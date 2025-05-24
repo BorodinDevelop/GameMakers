@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 9169313146732769693}
   - component: {fileID: 7568836020466394360}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tents
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &9169313146732769693
 Transform:
@@ -61,6 +61,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 814bf0035a7247b4db84ad4932f32607, type: 3}
       propertyPath: m_Name
       value: MedievalTentSmall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 814bf0035a7247b4db84ad4932f32607, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 814bf0035a7247b4db84ad4932f32607, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 814bf0035a7247b4db84ad4932f32607, type: 3}
       propertyPath: m_LocalScale.y
@@ -148,9 +156,25 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: -0.000033826447
       objectReference: {fileID: 0}
+    - target: {fileID: 1139688816461121415, guid: 1eaabc2aa8aee484cb0b64b2bebe252c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318108979425647336, guid: 1eaabc2aa8aee484cb0b64b2bebe252c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030601878447967979, guid: 1eaabc2aa8aee484cb0b64b2bebe252c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4012337630082778474, guid: 1eaabc2aa8aee484cb0b64b2bebe252c, type: 3}
       propertyPath: m_Name
       value: Conifer_2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012337630082778474, guid: 1eaabc2aa8aee484cb0b64b2bebe252c, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4388053584151060432, guid: 1eaabc2aa8aee484cb0b64b2bebe252c, type: 3}
       propertyPath: m_LocalScale.x
@@ -204,6 +228,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -69.007
       objectReference: {fileID: 0}
+    - target: {fileID: 6995092061016009708, guid: 1eaabc2aa8aee484cb0b64b2bebe252c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274503946972659281, guid: 1eaabc2aa8aee484cb0b64b2bebe252c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -242,9 +274,25 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: -0.000033826447
       objectReference: {fileID: 0}
+    - target: {fileID: 1139688816461121415, guid: 1eaabc2aa8aee484cb0b64b2bebe252c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318108979425647336, guid: 1eaabc2aa8aee484cb0b64b2bebe252c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030601878447967979, guid: 1eaabc2aa8aee484cb0b64b2bebe252c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4012337630082778474, guid: 1eaabc2aa8aee484cb0b64b2bebe252c, type: 3}
       propertyPath: m_Name
       value: Conifer_2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012337630082778474, guid: 1eaabc2aa8aee484cb0b64b2bebe252c, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4388053584151060432, guid: 1eaabc2aa8aee484cb0b64b2bebe252c, type: 3}
       propertyPath: m_LocalScale.x
@@ -298,6 +346,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -49.238
       objectReference: {fileID: 0}
+    - target: {fileID: 6995092061016009708, guid: 1eaabc2aa8aee484cb0b64b2bebe252c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274503946972659281, guid: 1eaabc2aa8aee484cb0b64b2bebe252c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -319,6 +375,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 814bf0035a7247b4db84ad4932f32607, type: 3}
       propertyPath: m_Name
       value: MedievalTentSmall
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 814bf0035a7247b4db84ad4932f32607, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 814bf0035a7247b4db84ad4932f32607, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 814bf0035a7247b4db84ad4932f32607, type: 3}
       propertyPath: m_LocalScale.y
@@ -389,6 +453,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 814bf0035a7247b4db84ad4932f32607, type: 3}
       propertyPath: m_Name
       value: MedievalTentSmall
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 814bf0035a7247b4db84ad4932f32607, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 814bf0035a7247b4db84ad4932f32607, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 814bf0035a7247b4db84ad4932f32607, type: 3}
       propertyPath: m_LocalScale.y
