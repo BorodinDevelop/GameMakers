@@ -274,6 +274,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3176344627311524826, guid: 04853c7b06902184aa2c31801a1c3c6f, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3176344627311524826, guid: 04853c7b06902184aa2c31801a1c3c6f, type: 3}
+      propertyPath: jumpHeight
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -313,6 +321,7 @@ MonoBehaviour:
   - {fileID: 104244903165995916, guid: 432ee9af6eb4bef48ad26a4ffe92dd6a, type: 3}
   - {fileID: 2658724697817343014, guid: 181c5a9c251f47b429c37b8f51282b23, type: 3}
   FirstChunk: {fileID: 324330427}
+  spawnedChunks: []
   LastEndPoint: 0
 --- !u!4 &1170692402
 Transform:
