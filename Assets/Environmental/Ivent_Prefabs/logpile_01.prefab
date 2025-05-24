@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4168858863378548}
   - component: {fileID: 205017868896300076}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: logpile_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 4319052482753502}
   - component: {fileID: 33716025699182958}
   - component: {fileID: 23134305631809810}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: logpile_0_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,7 +160,7 @@ GameObject:
   - component: {fileID: 33110023419612774}
   - component: {fileID: 23611958421668254}
   - component: {fileID: 64995161088474174}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: logpile_0_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 4180977341437220}
   - component: {fileID: 33818544744851194}
   - component: {fileID: 23478658307921088}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: logpile_0_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7003586278416559200}
   - component: {fileID: 6070049895092136230}
   - component: {fileID: 8783332452690930596}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain_7_No
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,9 +79,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1004f73054a24c543afb5079ee7db628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Begin: {fileID: 6897543622790568228}
-  End: {fileID: 6114400142079944714}
-  BlockMeshes: []
+  ContainerB_E: {fileID: 0}
+  Begin1: {fileID: 0}
+  End1: {fileID: 0}
+  Begin2: {fileID: 0}
+  End2: {fileID: 0}
+  Begin3: {fileID: 0}
+  End3: {fileID: 0}
+  Begin4: {fileID: 0}
+  End4: {fileID: 0}
   ChanceFromDistance:
     serializedVersion: 2
     m_Curve:
@@ -115,7 +121,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6114400142079944714}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: End
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -148,7 +154,7 @@ GameObject:
   - component: {fileID: 9186890034633074447}
   - component: {fileID: 5605074318410623084}
   - component: {fileID: 4966303432413090853}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain_(-250.00, 0.00, 250.00)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,7 +245,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6897543622790568228}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Begine
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
